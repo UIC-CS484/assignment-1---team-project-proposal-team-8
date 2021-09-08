@@ -15,7 +15,7 @@ Once you've finished your work, you can create a pull request like so:
 
 1. Push to `staging` branch:
 ```
-`$ git push --set-upstream origin staging`
+$ git push --set-upstream origin staging
 ```
 2. Navigate to [https://github.com/UIC-CS484/assignment-1---team-project-proposal-team-8/pull/new/staging](https://github.com/UIC-CS484/assignment-1---team-project-proposal-team-8/pull/new/staging)
 3. In the **Open a pull request** prompt, enter comments describing your changes and click **Create pull request**.
