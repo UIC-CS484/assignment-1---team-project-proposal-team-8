@@ -13,7 +13,10 @@ Our team will communicate in person & through Discord. We will regularly meet on
 ### Creating a Pull Request
 Once you've finished your work, you can create a pull request like so:
 
-1. Push to `staging` branch: `$ git push --set-upstream origin staging`
+1. Push to `staging` branch:
+```
+`$ git push --set-upstream origin staging`
+```
 2. Navigate to [https://github.com/UIC-CS484/assignment-1---team-project-proposal-team-8/pull/new/staging](https://github.com/UIC-CS484/assignment-1---team-project-proposal-team-8/pull/new/staging)
 3. In the **Open a pull request** prompt, enter comments describing your changes and click **Create pull request**.
 4. Once your changes are reviewed & approved, they will be merged into the main branch and deployed to production.
