@@ -13,7 +13,11 @@ Our team will communicate in person & through Discord. We will regularly meet on
 ### Creating a Pull Request
 Once you've finished your work, you can create a pull request like so:
 
-1. Push to `staging` branch:
+1. Rebase your work against `origin/master`
+```
+$ git pull --rebase
+```
+2. Push to `staging` branch:
 ```
 $ git push --set-upstream origin staging
 ```
