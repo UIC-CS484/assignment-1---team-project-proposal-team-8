@@ -13,13 +13,13 @@ Our team will communicate in person & through Discord. We will regularly meet on
 ### Creating a Pull Request
 Once you've finished your work, you can create a pull request like so:
 
-1. Rebase your work against `origin/master`
+1. Rebase your work against `origin/main`
 ```
 $ git pull --rebase
 ```
 2. Push to `staging` branch:
 ```
-$ git push --set-upstream origin staging
+$ git push origin staging
 ```
 3. Navigate to [https://github.com/UIC-CS484/assignment-1---team-project-proposal-team-8/pull/new/staging](https://github.com/UIC-CS484/assignment-1---team-project-proposal-team-8/pull/new/staging)
 4. In the **Open a pull request** prompt, enter comments describing your changes and click **Create pull request**.
