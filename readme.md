@@ -21,9 +21,9 @@ $ git pull --rebase
 ```
 $ git push --set-upstream origin staging
 ```
-2. Navigate to [https://github.com/UIC-CS484/assignment-1---team-project-proposal-team-8/pull/new/staging](https://github.com/UIC-CS484/assignment-1---team-project-proposal-team-8/pull/new/staging)
-3. In the **Open a pull request** prompt, enter comments describing your changes and click **Create pull request**.
-4. Once your changes are reviewed & approved, they will be merged into the main branch and deployed to production.
+3. Navigate to [https://github.com/UIC-CS484/assignment-1---team-project-proposal-team-8/pull/new/staging](https://github.com/UIC-CS484/assignment-1---team-project-proposal-team-8/pull/new/staging)
+4. In the **Open a pull request** prompt, enter comments describing your changes and click **Create pull request**.
+5. Once your changes are reviewed & approved, they will be merged into the main branch and deployed to production.
 
 ## Team Members
 ### Farooq Syed 
