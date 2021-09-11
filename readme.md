@@ -1,5 +1,5 @@
 # Assignment One
-You can view the project here: [https://uic-cs484.github.io/assignment-1---team-project-proposal-team-8/](https://uic-cs484.github.io/assignment-1---team-project-proposal-team-8/)
+You can view the project here: [https://uic-cs484.github.io/assignment-1---team-project-proposal-team-8/proposal.html](https://uic-cs484.github.io/assignment-1---team-project-proposal-team-8/proposal.html)
 
 ## Team Workflow Strategy
 We will use [trunk-based development](https://trunkbaseddevelopment.com/) in order to commit our work. In essence, this means that we will be pushing our commits to a single branch.
