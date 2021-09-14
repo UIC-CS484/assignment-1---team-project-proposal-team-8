@@ -17,13 +17,26 @@ Once you've finished your work, you can create a pull request like so:
 ```
 $ git pull --rebase
 ```
-2. Push to `staging` branch:
+2. Create a new branch `staging` by issuing the command:
 ```
-$ git push origin staging
+$ git checkout -b staging
+  Switched to a new branch ‘staging’
 ```
-3. Navigate to [https://github.com/UIC-CS484/assignment-1---team-project-proposal-team-8/pull/new/staging](https://github.com/UIC-CS484/assignment-1---team-project-proposal-team-8/pull/new/staging)
-4. In the **Open a pull request** prompt, enter comments describing your changes and click **Create pull request**.
-5. Once your changes are reviewed & approved, they will be merged into the main branch and deployed to production.
+3. Add files you want to commit:
+```
+$ git add . || git add "file name"
+```
+4. Create a commit with a message using this command:
+```
+$ git commit -S -m "Added this feature"
+```
+5. Push to `staging` branch:
+```
+$ git push -u origin staging
+```
+6. Navigate to [https://github.com/UIC-CS484/assignment-1---team-project-proposal-team-8/pull/new/staging](https://github.com/UIC-CS484/assignment-1---team-project-proposal-team-8/pull/new/staging)
+7. In the **Open a pull request** prompt, enter comments describing your changes and click **Create pull request**.
+8. Once your changes are reviewed & approved, they will be merged into the main branch and deployed to production.
 
 ## Team Members
 ### Farooq Syed 
