@@ -24,8 +24,9 @@
 }
 .mid-box {
     min-height: 200px;
-    width: 48%;
+    width: 45%;
     background-color: gainsboro;
+    padding: 20px;
 }
 .footer-container {
     background-color: gainsboro;
@@ -41,6 +42,7 @@
 }
 .footer-box {
     min-height: 98%;
-    width: 31%;
+    width: 27%;
+    padding: 20px;
     background-color: gray;
 }
