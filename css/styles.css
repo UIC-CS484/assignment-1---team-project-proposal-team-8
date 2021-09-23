@@ -1,12 +1,18 @@
 .page {
     font-size: 20px;
-    color: black;
+    color: rgb(85, 85, 85);
 }
 .container {
     width: 1000px;
     height: 100vh;
     background-color: white;
     margin: 0 auto;
+}
+h2 {
+    margin-bottom: 0px;
+}
+p {
+    margin-top: 0px;
 }
 .row {
     width: 100%;
@@ -44,5 +50,28 @@
     min-height: 98%;
     width: 27%;
     padding: 20px;
-    background-color: gray;
+    background-color: rgb(173, 173, 173);
+}
+
+@media only screen and (max-width: 600px) {
+    .page {
+        color:rgb(153, 19, 146);
+        background-color: rgb(255, 157, 247);
+    }
+
+    .container {
+        background-color: rgb(255, 157, 247);
+    }
+    .footer-container {
+        background-color: rgb(219, 140, 250);
+    }
+    .footer-box {
+        background-color: rgb(201, 112, 236);
+    }
+    .header {
+        background-color: rgb(219, 140, 250);
+    }
+    .mid-box {
+        background-color: rgb(219, 140, 250);
+    }
 }
