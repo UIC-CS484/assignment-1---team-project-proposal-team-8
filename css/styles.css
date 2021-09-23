@@ -1,6 +1,17 @@
+@font-face {
+    src: url(fonts/overpass-regular.otf);
+    font-family: overpass;
+}
+@font-face {
+    src: url(fonts/overpass-extrabold.otf);
+    font-family: overpass;
+    font-weight: bold;
+}
+
 .page {
     font-size: 20px;
-    color: black;
+    color: rgb(85, 85, 85);
+    font-family: overpass;
 }
 .container {
     width: 1000px;
@@ -8,15 +19,20 @@
     background-color: white;
     margin: 0 auto;
 }
+h2 {
+    margin-bottom: 0px;
+}
+p {
+    margin-top: 0px;
+}
 .row {
     width: 100%;
     margin-bottom: 20px;
 }
 .header {
     text-align: center;
-    width: 100%;
-    min-height: 200px;
     background-color: gainsboro;
+    padding: 40px;
 }
 .mid {
     display: flex;
@@ -45,5 +61,29 @@
     min-height: 98%;
     width: 27%;
     padding: 20px;
-    background-color: gray;
+    background-color: rgb(173, 173, 173);
+}
+
+@media only screen and (max-width: 600px) {
+    .page {
+        color:rgb(153, 19, 146);
+        background-color: rgb(255, 157, 247);
+        font-family: "Comic Sans MS", sans-serif;
+    }
+
+    .container {
+        background-color: rgb(255, 157, 247);
+    }
+    .footer-container {
+        background-color: rgb(219, 140, 250);
+    }
+    .footer-box {
+        background-color: rgb(201, 112, 236);
+    }
+    .header {
+        background-color: rgb(219, 140, 250);
+    }
+    .mid-box {
+        background-color: rgb(219, 140, 250);
+    }
 }
