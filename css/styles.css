@@ -73,17 +73,26 @@ p {
 
     .container {
         background-color: rgb(255, 157, 247);
+        width: 100%;
+        height: 200vh;
     }
     .footer-container {
         background-color: rgb(219, 140, 250);
     }
     .footer-box {
+        margin-bottom: 15px;
+        width:auto;
         background-color: rgb(201, 112, 236);
+    }
+
+    .footer-items {
+        display: inline;
     }
     .header {
         background-color: rgb(219, 140, 250);
     }
     .mid-box {
         background-color: rgb(219, 140, 250);
+        width: 40%;
     }
 }
