@@ -88,6 +88,8 @@ p {
     .footer-items {
         display: inline;
     }
+        background-color: rgb(201, 112, 236);
+    }
     .header {
         background-color: rgb(219, 140, 250);
     }
