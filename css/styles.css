@@ -96,3 +96,9 @@ p {
         width: 40%;
     }
 }
+
+@media only screen and (max-width: 1024px) {
+    .page {
+        font-family: "Comic Sans MS", sans-serif;
+    }
+}
