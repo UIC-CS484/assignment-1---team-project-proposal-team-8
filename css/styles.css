@@ -12,6 +12,8 @@
     font-size: 20px;
     color: rgb(85, 85, 85);
     font-family: overpass;
+    overflow-wrap: break-word;
+    
 }
 .container {
     width: 1000px;
@@ -62,6 +64,12 @@ p {
     width: 27%;
     padding: 20px;
     background-color: rgb(173, 173, 173);
+}
+.footer-accessibility{
+    text-align: center;
+}
+.font-box{
+    width: 100px;
 }
 
 @media only screen and (max-width: 600px) {
